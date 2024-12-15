@@ -1,0 +1,55 @@
+  408  mkdir myjava
+  409  ls
+  410  cd myjava/
+  411  ls
+  412  touch myjava.py.txt
+  413  echo >> hello myjava.py.txt 
+  414  cat myjava.py.txt 
+  415  vim myjava.py.txt 
+  416  git add
+  417  git add .
+  418  git init
+  419  git add .
+  420  git commit -m "first commit:
+  421  git commit -m "first commit"
+  422  gt status
+  423  git status
+  424  git checkout -b myjava-1234
+  425  git status
+  426  git branch
+  427  cd ..
+  428  mvn archetype:generate -DgroupId=com.myjava.app -DartifactId=myjava -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  429  ls
+  430  cd myjava/
+  431  ls
+  432  cd src/main/java/com/myjava/app/
+  433  ls
+  434  cat App.java 
+  435  cd ../..
+  436  cd ..
+  437  cd myjava/
+  438  mvn clean install
+  439  ls
+  440  rm -rf hello 
+  441  ls
+  442  cat myjava.py.txt 
+  443  cd target/
+  444  ls
+  445  java -cp myjava-1.0-SNAPSHOT.jar com.myjava.app
+  446  java -cp myjava-1.0-SNAPSHOT.jar com.myjava.app.App 
+  447  cd ..
+  448  ls
+  449  git status
+  450  mvn clean
+  451  git status
+  452  git init
+  453  git status
+  454  git add .
+  455  git commit -m "my maven project"
+  456  git status
+  457  git branch
+  458  git remote add origin git@github.com:chethan-kimi/myjava.git
+  459  git remote -v
+  460  git push -u origin development
+  461  git push -u origin myjava-1234 
+
