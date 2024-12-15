@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/chethan-kimi/myjava.git'
+                //git 'https://github.com/chethan-kimi/myjava.git'
                 
                 //checkout to myjava-1234
                 //sh 'git checkout myjava-1234'
